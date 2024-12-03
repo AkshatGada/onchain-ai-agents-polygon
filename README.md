@@ -12,3 +12,29 @@ AI agents are intelligent systems designed to perform tasks autonomously by proc
 This versatility allows AI agents to transcend natural language processing, offering advanced capabilities in various domains, including blockchain-based applications.
 
 ---
+
+# Building an AI Assistant with OpenAI's Assistants API in JavaScript
+
+This guide provides step-by-step instructions to create an AI Assistant using OpenAI's Assistants API with JavaScript.
+
+---
+
+## Prerequisites
+
+1. **OpenAI API Key**: Obtain from your [OpenAI account](https://platform.openai.com/account/api-keys).
+2. **Node.js**: Ensure Node.js (v14+) is installed on your system.
+3. **OpenAI Node.js Library**: Install via npm:
+   ```bash
+   npm install openai
+
+   
+
+ const { Configuration, OpenAIApi } = require("openai");
+   
+
+const configuration = new Configuration({
+  apiKey: "your-api-key",
+});
+
+const openai = new OpenAIApi(configuration);
+
