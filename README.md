@@ -62,7 +62,7 @@ const message = await openai.beta.threads.messages.create(
   thread.id,
   {
     role: "user",
-    content: "I need to solve the equation `3x + 11 = 14`. Can you help me?"
+    content: "What is the best strategy to maximize yield farming returns with $500 in USDC?"
   }
 );
 ```
