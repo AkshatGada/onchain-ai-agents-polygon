@@ -12,10 +12,6 @@ AI agents are like digital masterminds, built to tackle tasks on their own by an
 
 # Building an On-chain agent with OpenAI's Assistants API in JavaScript
 
-This guide provides step-by-step instructions to create an AI Assistant using OpenAI's Assistants API with JavaScript.
-
----
-
 ## Prerequisites
 
 1. **OpenAI API Key**: Obtain from your [OpenAI account](https://platform.openai.com/account/api-keys).
