@@ -47,25 +47,6 @@ async function main() {
 
 main();
 
-```
-## Create an On-chain Defi assistant 
-
-```bash
-const assistant = await openai.createAssistant({
-  name: "DeFi Assistant",
-  instructions: `
-    You are an on-chain DeFi assistant.
-    Your role is to:
-    - Analyze token prices and trends.
-    - Recommend optimal yield farming strategies.
-    - Identify arbitrage opportunities between decentralized exchanges.
-    - Provide alerts for loan safety in lending protocols.
-    - Suggest DeFi investment strategies based on user inputs.
-    Answer concisely and clearly.`,
-  model: "gpt-4-1106-preview",
-});
-
-console.log("DeFi Assistant Created:", assistant.data);
 
 ```
 ## Create a Thread 
