@@ -70,10 +70,6 @@ const message = await openai.beta.threads.messages.create(
 ## Create a Run 
 
 ```bash
-
-// We use the stream SDK helper to create a run with
-// streaming. The SDK provides helpful event listeners to handle 
-// the streamed response.
  
 const run = openai.beta.threads.runs.stream(thread.id, {
     assistant_id: assistant.id
