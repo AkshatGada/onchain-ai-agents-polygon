@@ -10,7 +10,7 @@ AI agents are like digital masterminds, built to tackle tasks on their own by an
 
 ---
 
-# Building an AI Assistant with OpenAI's Assistants API in JavaScript
+# Building an On-chain agent with OpenAI's Assistants API in JavaScript
 
 This guide provides step-by-step instructions to create an AI Assistant using OpenAI's Assistants API with JavaScript.
 
